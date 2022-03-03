@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Lab_04</title>
+</head>
+<body>
+  
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="img/Tourism.png" class="img-fluid" height="50px" width="50px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item mx-4 active">
+        <a class="nav-link" href="index.html">Trang Chủ</a>
+      </li>
+      <li class="nav-item mx-4">
+        <a class="nav-link" href="#main_product">Tour</a>
+      </li>
+      <li class="nav-item mx-4">
+        <a class="nav-link" href="contact.html">Liên Hệ</a>
+      </li>
+      <li class="nav-item mx-4 pr-4">
+        <a class="nav-link" href="services.html">Dịch vụ</a>
+      </li>
+    </ul>
+    
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- End of Navigation Section -->
+
+
+
+
+
+<!-- Banner Carousel Section -->
+<div id="demo" class="carousel slide"" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" alt="BTS-Tour-Banner-01" style="height:800px">
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" alt="BTS-Tour-Banner-02" style="height:800px">
+    </div>
+    <div class="carousel-item">
+      <img src="img/3.jpg" alt="BTS-Tour-Banner-03" style="height:800px">
+    </div>
+    <div class="carousel-item">
+      <img src="img/4.jpg" alt="BTS-Tour-Banner-04" style="height:800px">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- End of Banner Carousel Section -->
+
+
+
+
+
+<!-- header_caption Section -->
+<section class="header_caption">
+<div class="container">
+<div class="text-center text-light">
+  <h1 class="display-3 my-4">LỊCH DIỄN</h1>
+  <h2 class="my-4">BTS MAP OF THE SOUL TOUR</h2>
+  <h3 class="my-4">Các bạn nhớ đặt lịch nhé</h3>
+</div>  <!-- End of div row -->
+</div>  <!-- End of div container -->
+</section>  <!-- End of Section header_caption -->
+
+
+
+
+<!-- main_product Section -->
+<section class="main_product d-block" id="main_product">
+<div class="container d-block">
+  
+  <!------------ January Product ------------>
+    <!-- Collapse Button -->
+  <button class="month_product btn_Jan my-2" data-toggle="collapse" data-target="#product_Jan" style="outline: none;">
+    <div class="row">
+      <p class="float-left pl-4 pb-4">January</p>
+      <span class="dot ml-auto">3</span>
+    </div>
+  </button>
+    <!-- Product Information-->
+  <div id="product_Jan" class="collapse" >
+  <div class="container-fluid py-4">
+  <div class="row">
+    <!-- Product 01 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Hàn Quốc</h4>
+          <p class="card-text">Friday, 27 September 2021</p>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Modal_Jan_Product_01">Mua Vé</button>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 02 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Sài Gòn</h4>
+          <p class="card-text">Friday, 29 September 2021</p>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Modal_Jan_Product_02">Mua Vé</button>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 03 -->   
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Nhật Bản</h4>
+          <p class="card-text">Friday, 28 September 2021</p>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Modal_Jan_Product_03">Mua Vé</button>
+        </div>
+      </div>
+    </div> 
+  </div>  
+  </div>
+  </div>
+
+  <!-- The Modal of January Product-->
+  <!-- Modal of Product 01 -->
+  <div class="modal" id="Modal_Jan_Product_01">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="col-6 ml-auto">
+            <h2 class="modal-title text-center font-weight-bold">Ticket</h2>
+          </div>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>Ticket ($21 per person) : </p>
+          <input type="text" class="form-control" name="personCount" style="width: 100%;" placeholder="How many people?"><br>
+          <p>Send to : </p>
+          <input type="text" class="form-control" name="personCount" style="width: 100%;" placeholder="Email"><br>
+          <a href="#" class="text-decoration-none">
+            <p class="d-flex justify-content-center">Pay</p>
+          </a>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <div class="col-7 ml-auto">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal of Product 02 -->
+  <div class="modal" id="Modal_Jan_Product_02">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="col-6 ml-auto">
+            <h2 class="modal-title text-center font-weight-bold">Ticket</h2>
+          </div>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>Ticket ($21 per person) : </p>
+          <input type="text" class="form-control" name="personCount" style="width: 100%;" placeholder="How many people?"><br>
+          <p>Send to : </p>
+          <input type="text" class="form-control" name="personCount" style="width: 100%;" placeholder="Email"><br>
+          <a href="#" class="text-decoration-none">
+            <p class="d-flex justify-content-center">Pay</p>
+          </a>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <div class="col-7 ml-auto">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal of Product 01 -->
+  <div class="modal" id="Modal_Jan_Product_03">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="col-6 ml-auto">
+            <h2 class="modal-title text-center font-weight-bold">Ticket</h2>
+          </div>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>Ticket ($21 per person) : </p>
+          <input type="text" class="form-control" name="personCount" style="width: 100%;" placeholder="How many people?"><br>
+          <p>Send to : </p>
+          <input type="text" class="form-control" name="personCount" style="width: 100%;" placeholder="Email"><br>
+          <a href="#" class="text-decoration-none">
+            <p class="d-flex justify-content-center">Pay</p>
+          </a>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <div class="col-7 ml-auto">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!------------ February Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Feb my-2 " data-toggle="collapse" data-target="#product_Feb" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">February</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Feb" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#">Mua Vé</button>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#">Mua Vé</button>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#">Mua Vé</button>
+          </div>
+        </div>
+      </div> 
+    </div> <!-- End of Div Row -->
+    </div>
+    </div>
+
+
+    
+<!------------ March Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Mar my-2" data-toggle="collapse" data-target="#product_Mar" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">March</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Mar" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+
+<!------------ April Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Apr my-2" data-toggle="collapse" data-target="#product_Apr" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">April</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Apr" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+
+<!------------ May Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_May my-2" data-toggle="collapse" data-target="#product_May" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">May</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_May" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+
+<!------------ June Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Jun my-2" data-toggle="collapse" data-target="#product_Jun" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">June</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Jun" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+    <!------------ July Product ------------>
+    <!-- Collapse Button -->
+  <button class="month_product btn_Jul my-2" data-toggle="collapse" data-target="#product_Jul" style="outline: none;">
+    <div class="row">
+      <p class="float-left pl-4 pb-4">July</p>
+      <span class="dot ml-auto">3</span>
+    </div>
+  </button>
+    <!-- Product Information-->
+  <div id="product_Jul" class="collapse">
+  <div class="container-fluid py-4">
+  <div class="row">
+    <!-- Product 01 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Hàn Quốc</h4>
+          <p class="card-text">Friday, 27 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 02 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Sài Gòn</h4>
+          <p class="card-text">Friday, 29 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 03 -->   
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Nhật Bản</h4>
+          <p class="card-text">Friday, 28 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+  </div>  
+  </div>
+  </div>
+
+
+
+  <!------------ August Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Aug my-2" data-toggle="collapse" data-target="#product_Aug" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">August</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Aug" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+
+    <!------------ September Product ------------>
+    <!-- Collapse Button -->
+  <button class="month_product btn_Sep my-2" data-toggle="collapse" data-target="#product_Sep" style="outline: none;">
+    <div class="row">
+      <p class="float-left pl-4 pb-4">September</p>
+      <span class="dot ml-auto">3</span>
+    </div>
+  </button>
+    <!-- Product Information-->
+  <div id="product_Sep" class="collapse">
+  <div class="container-fluid py-4">
+  <div class="row">
+    <!-- Product 01 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Hàn Quốc</h4>
+          <p class="card-text">Friday, 27 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 02 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Sài Gòn</h4>
+          <p class="card-text">Friday, 29 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 03 -->   
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Nhật Bản</h4>
+          <p class="card-text">Friday, 28 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+  </div>  
+  </div>
+  </div>
+
+
+
+  <!------------ October Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Oct my-2" data-toggle="collapse" data-target="#product_Oct" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">October</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Oct" class="collapse">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+
+    <!------------ November Product ------------>
+    <!-- Collapse Button -->
+  <button class="month_product btn_Nov my-2" data-toggle="collapse" data-target="#product_Nov" style="outline: none;">
+    <div class="row">
+      <p class="float-left pl-4 pb-4">November</p>
+      <span class="dot ml-auto">3</span>
+    </div>
+  </button>
+    <!-- Product Information-->
+  <div id="product_Nov" class="collapse">
+  <div class="container-fluid py-4">
+  <div class="row">
+    <!-- Product 01 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Hàn Quốc</h4>
+          <p class="card-text">Friday, 27 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 02 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Sài Gòn</h4>
+          <p class="card-text">Friday, 29 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Product 03 -->   
+    <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Nhật Bản</h4>
+          <p class="card-text">Friday, 28 September 2021</p>
+          <a href="#" class="btn btn-info">Mua Vé</a>
+        </div>
+      </div>
+    </div> 
+  </div>  
+  </div>
+  </div>
+
+
+  <!------------ December Product ------------>
+    <!-- Collapse Button -->
+    <button class="month_product btn_Dec my-2" data-toggle="collapse" data-target="#product_Dec" style="outline: none;">
+      <div class="row">
+        <p class="float-left pl-4 pb-4">December</p>
+        <span class="dot ml-auto">3</span>
+      </div>
+    </button>
+      <!-- Product Information-->
+    <div id="product_Dec" class="collapse ">
+    <div class="container-fluid py-4">
+    <div class="row">
+      <!-- Product 01 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/hanquoc.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hàn Quốc</h4>
+            <p class="card-text">Friday, 27 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 02 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/saigon.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Sài Gòn</h4>
+            <p class="card-text">Friday, 29 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+      <!-- Product 03 -->   
+      <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+        <div class="card text-center">
+          <img class="card-img-top" src="img/nhatban.jpg" alt="HanQuoc" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Nhật Bản</h4>
+            <p class="card-text">Friday, 28 September 2021</p>
+            <a href="#" class="btn btn-info">Mua Vé</a>
+          </div>
+        </div>
+      </div> 
+    </div>  
+    </div>
+    </div>
+
+</div>  <!-- End of div container -->
+</section>  <!-- End of Section main_product -->
+
+
+
+<!-- Footer Section -->
+<footer>
+  <div class="container-fluid bg-dark text-light">
+    <div class="container-fluid">
+  
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 class="my-4">THÔNG TIN</h3>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 col-xs-5 col-sm-4 footer_tour">
+        <h3 class="my-4">TOUR</h3>
+        <a href="#" class="text-decoration-none text-light"><p>Korea</p></a>
+        <a href="#" class="text-decoration-none text-light"><p>Japan</p></a>
+        <a href="#" class="text-decoration-none text-light"><p>Singapore</p></a>
+        <a href="#" class="text-decoration-none text-light"><p>Canada</p></a>
+        <a href="#" class="text-decoration-none text-light"><p>England</p></a>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 col-xs-5 col-sm-8 ">
+        <h3 class="my-4">THÔNG TIN</h3>
+        <p>Gọi mua hàng : 1800 1060</p>
+        <p>Gọi tư vấn : 1800 1061</p>
+        <p>Gọi khiếu nại : 1800 1062</p>
+        <p>Gọi kỹ thuật : 1800 1063</p>
+      </div>
+  
+    </div> <!-- end of row 1 div -->
+  
+    <hr>
+  
+    <div class="row">
+  
+      <div class="col-6">
+        <p class="my-3">Copyright &copy; All Right Reserve By ITC</p>
+      </div>
+  
+      <div class="col-6 d-flex flex-row justify-content-end pl-5">
+        <div class="row">
+          <a href="#" class="col-xs-6 icon01 mr-3" style="font-size: 3em; color: grey;"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="col-xs-6 icon02 mr-3" style="font-size: 3em; color: grey;"><i class="fab fa-twitter-square"></i></a>
+          <a href="#" class="col-xs-6 icon03 mr-3" style="font-size: 3em; color: grey;"><i class="fas fa-envelope-square"></i></a>
+          <a href="#" class="col-xs-6 icon04 mr-3" style="font-size: 3em; color: grey;"><i class="fab fa-youtube-square"></i></a>
+        </div>
+      </div>
+  
+    </div> <!-- end of row 2 div -->
+  
+  
+    </div> <!-- end of container div -->
+  </div> <!-- end of container div -->
+  </footer>
+  <!-- End ofFooter Section -->
+
+
+
+
+
+
+</body>
+</html>

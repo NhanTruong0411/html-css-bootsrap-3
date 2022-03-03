@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  height: 100vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1.7px;
+  background-color: black;
+  
+}
+
+.ml-auto {
+  margin-left: auto!important;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: DimGray;
+  color : white;
+  border-radius: 60%;
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 8px;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.btn:focus {
+  outline: none;
+  border: 0;
+}
+input[type="button"] {
+  outline: none;
+  border: 0;
+}
+
+/* Banner Carousel Section */
+.carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100vh;
+}
+
+.main_product .container {
+  margin-bottom : 250px;
+}
+
+.main_product .month_product {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 15px;
+}
+
+.btn_Jan, .btn_Jan:hover, .btn_Jan:active, .btn_Jan:visited, .btn_Jan::before {
+  background-color:	#FF4500;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Feb, .btn_Feb:hover, .btn_Feb:active, .btn_Feb:visited, .btn_Feb::before {
+  background-color: #FFA500;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Mar, .btn_Mar:hover, .btn_Mar:active, .btn_Mar:visited, .btn_Mar::before {
+  background-color:	#FF8C00;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Apr, .btn_Apr:hover, .btn_Apr:active, .btn_Apr:visited, .btn_Apr::before {
+  background-color: #FF7F50;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_May, .btn_May:hover, .btn_May:active, .btn_May:visited, .btn_May::before {
+  background-color:#FF6347 ;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Jun, .btn_Jun:hover, .btn_Jun:active, .btn_Jun:visited, .btn_Jun::before {
+  background-color: #FFA07A ;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Jul, .btn_Jul:hover, .btn_Jul:active, .btn_Jul:visited, .btn_Jul::before {
+  background-color: #FA8072;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Aug, .btn_Aug:hover, .btn_Aug:active, .btn_Aug:visited, .btn_Aug::before {
+  background-color: #E9967A;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Sep, .btn_Sep:hover, .btn_Sep:active, .btn_Sep:visited, .btn_Sep::before {
+  background-color: #F08080;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Oct, .btn_Oct:hover, .btn_Oct:active, .btn_Oct:visited, .btn_Oct::before {
+  background-color:	#CD5C5C;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Nov, .btn_Nov:hover, .btn_Nov:active, .btn_Nov:visited, .btn_Nov::before {
+  background-color: #DC143C;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.btn_Dec, .btn_Dec:hover, .btn_Dec:active, .btn_Dec:visited, .btn_Dec::before {
+  background-color: #B22222;
+  border-color: none!important;
+  border: 0!important;
+  outline: none;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing : .25rem;
+  font-weight: bold;
+}
+
+.modal-body,
+.modal-footer,
+.modal-body .form-control {
+  font-size : 2rem;
+}
+
+
+
+/* Footer Section */
+footer hr {
+  border: 1px solid gray;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_tour{
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media(max-width:576px) {
+  footer .col-xs-5 {
+    width: auto;
+  }
+}
+
+footer .icon01,
+footer .icon02,
+footer .icon03,
+footer .icon04 {
+  transition: 0.5s ease;
+  font-size: 50px!important;
+  margin : 0;
+}
+
+footer .icon01:hover {
+  color: #3b5999!important;
+}
+footer .icon02:hover {
+  color: #55acee!important;
+}
+footer .icon03:hover {
+  color: #df2029!important;
+}
+footer .icon04:hover {
+  color: #cd201f!important;
+}
+
+@media (max-width: 460px) {
+  footer .icon01,
+  footer .icon02,
+  footer .icon03,
+  footer .icon04 {
+    font-size: 2rem!important;
+  }
+
+}
+
